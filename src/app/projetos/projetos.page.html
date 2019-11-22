@@ -1,5 +1,48 @@
 <ion-content>
-    <footer>
-        <img src="../../assets/icon/back.png" class="back_btn" routerLink="/menu-principal" alt="Voltar Icon">
-    </footer>
+    <div class="container background-default">
+        <ion-slides [options]="slideOpts" class="a">
+            <ion-slide>
+                <div>
+                    <h1>1. Inteligência Artificial</h1>
+                </div>
+                <div>
+                    <img src="../../assets/icon/IA.png" alt="Imagem IA">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book.
+                </div>
+                <button class="btn-1">baixar pdf</button>
+            </ion-slide>
+            <ion-slide>
+                <div>
+                    <h1>2. Impressora 3D</h1>
+                </div>
+                <div>
+                    <img src="../../assets/icon/impressora_3d.png" alt="Impressora 3D">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book.
+                </div>
+                <button class="btn-1">baixar pdf</button>
+            </ion-slide>
+            <ion-slide>
+                <div>
+                    <h1>3. Dispositivos Móveis</h1>
+                </div>
+                <div>
+                    <img src="../../assets/icon/DISPOSITIVOS_MOVEIS.png" alt="Dispositivos Móveis">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book.
+                </div>
+                <button class="btn-1">baixar pdf</button>
+            </ion-slide>
+        </ion-slides>
+    </div>
 </ion-content>
+<footer>
+    <img src="../../assets/icon/back.png" class="back_btn" routerLink="/menu-principal" alt="Voltar Icon">
+</footer>

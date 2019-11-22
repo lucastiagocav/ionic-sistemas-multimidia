@@ -9,6 +9,18 @@ footer {
     bottom: 40px;
     margin-left: 8em;
   }
-  footer img {
-    width: 50px;
+
+
+  ion-slide {
+    flex-direction: column;
+  }
+
+  .container {
+    height: 100%;
+    padding: 25% 5%;
+  }
+
+  .back_btn {
+    left: -105px;
+    top: 0px;
   }
